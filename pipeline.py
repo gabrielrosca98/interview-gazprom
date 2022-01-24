@@ -7,6 +7,7 @@ import logging
 import re
 import traceback
 
+
 logging.basicConfig(format='%(asctime)s [%(levelname)s] (%(name)s) %(msg)s', level=logging.INFO)
 APP_ROOT = Path(__file__).parent.absolute()
 RECORD_IDENTIFIERS = ["HEADR", "CONSU", "TRAIL"]
